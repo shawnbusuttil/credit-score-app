@@ -1,0 +1,32 @@
+.customer-registration {
+	width: 100%;
+	margin: 0 auto;
+	padding: 20px 0;
+	min-height: 100vh;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	background-color: #fff;
+
+	@media (min-width: 600px) {
+		width: 80%;
+	}
+
+	h1 {
+		text-align: center;
+		margin-bottom: 20px;
+	}
+
+	form {
+		.error-message {
+			text-align: left;
+			margin: 0;
+		}
+	}
+
+	.error-message {
+		text-align: center;
+		margin: 10px 0;
+	}
+}

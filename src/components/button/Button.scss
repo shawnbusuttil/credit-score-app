@@ -1,0 +1,19 @@
+button {
+	width: 200px;
+	height: 40px;
+	border: none;
+	border-radius: 20px;
+
+	font-size: 1rem;
+	font-weight: 600;
+	
+	&:not([disabled]) {
+		color: #fff;
+		background-color: rgb(48, 59, 178);
+
+		&:hover {
+			color: rgb(8, 5, 29);
+			background-color: rgb(203, 206, 236);
+		}
+	}
+}

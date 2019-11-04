@@ -1,0 +1,23 @@
+{
+    "ANYWHERE": {
+        "name": "Anywhere Card",
+        "apr": "18.9%",
+        "balanceTransferOfferDuration": 0,
+        "purchaseOfferDuration": 0,
+        "creditAvailable": 300
+    },
+    "STUDENTLIFE": {
+        "name": "Student Life",
+        "apr": "33.9%",
+        "balanceTransferOfferDuration": 0,
+        "purchaseOfferDuration": 0,
+        "creditAvailable": 1200
+    },
+    "LIQUIDCARD": {
+        "name": "Liquid Card",
+        "apr": "33.9%",
+        "balanceTransferOfferDuration": 12,
+        "purchaseOfferDuration": 6,
+        "creditAvailable": 3000
+    }
+}
