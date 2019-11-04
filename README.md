@@ -20,10 +20,11 @@ I didn't have much information about form validation so I did some trivial guess
 
 ## Possible Improvements
 
-The form can be made more generic (dumb) and decoupled from just one domain (Customer).
-In production, something like Formik would likely be used to handle form-specific logic. 
-CSS Modules for better CSS encapsulation per component.
-A Spinner component to replace the <p>Loading</p> markup for better UX.
+* The form can be made more generic (dumb) and decoupled from just one domain (Customer). In production, something like Formik would likely be used to handle form-specific logic. 
+
+* CSS Modules for better CSS encapsulation per component.
+
+* A Spinner component to replace the `<p>Loading</p>` markup for better UX.
 
 ## Available Scripts
 
